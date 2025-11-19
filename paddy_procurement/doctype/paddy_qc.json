@@ -1,0 +1,54 @@
+{
+  "doctype": "DocType",
+  "name": "Paddy QC",
+  "module": "Paddy Procurement",
+  "custom": 1,
+  "issingle": false,
+  "fields": [
+    {
+      "fieldname": "weighbridge_entry",
+      "label": "Weighbridge Entry",
+      "fieldtype": "Link",
+      "options": "Weighbridge Entry"
+    },
+    {
+      "fieldname": "moisture_percent",
+      "label": "Moisture (%)",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "impurity_percent",
+      "label": "Impurity (%)",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "qc_user",
+      "label": "QC User",
+      "fieldtype": "Link",
+      "options": "User"
+    },
+    {
+      "fieldname": "qc_datetime",
+      "label": "QC DateTime",
+      "fieldtype": "Datetime"
+    },
+    {
+      "fieldname": "final_payable_weight",
+      "label": "Final Payable Weight (kg)",
+      "fieldtype": "Float",
+      "read_only": 1
+    },
+    {
+      "fieldname": "deduction_amount",
+      "label": "Deduction Amount",
+      "fieldtype": "Currency",
+      "read_only": 1
+    },
+    {
+      "fieldname": "qc_status",
+      "label": "QC Status",
+      "fieldtype": "Select",
+      "options": "Pass\\nFail"
+    }
+  ]
+}

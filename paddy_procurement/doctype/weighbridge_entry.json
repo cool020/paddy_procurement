@@ -1,0 +1,65 @@
+{
+  "doctype": "DocType",
+  "name": "Weighbridge Entry",
+  "module": "Paddy Procurement",
+  "custom": 1,
+  "issingle": false,
+  "fields": [
+    {
+      "fieldname": "vehicle_no",
+      "label": "Vehicle No",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "farmer",
+      "label": "Farmer",
+      "fieldtype": "Link",
+      "options": "Farmer"
+    },
+    {
+      "fieldname": "supplier",
+      "label": "Supplier",
+      "fieldtype": "Link",
+      "options": "Supplier"
+    },
+    {
+      "fieldname": "variety",
+      "label": "Variety",
+      "fieldtype": "Link",
+      "options": "Paddy Variety"
+    },
+    {
+      "fieldname": "gross_weight",
+      "label": "Gross Weight (kg)",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "tare_weight",
+      "label": "Tare Weight (kg)",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "net_weight",
+      "label": "Net Weight (kg)",
+      "fieldtype": "Float",
+      "read_only": 1
+    },
+    {
+      "fieldname": "weighbridge_timestamp",
+      "label": "Timestamp",
+      "fieldtype": "Datetime"
+    },
+    {
+      "fieldname": "status",
+      "label": "Status",
+      "fieldtype": "Select",
+      "options": "Draft\\nSubmitted\\nRejected"
+    },
+    {
+      "fieldname": "generated_purchase_receipt",
+      "label": "Generated Purchase Receipt",
+      "fieldtype": "Link",
+      "options": "Purchase Receipt"
+    }
+  ]
+}

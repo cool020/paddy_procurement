@@ -1,0 +1,24 @@
+{
+  "doctype": "DocType",
+  "name": "Paddy Variety",
+  "module": "Paddy Procurement",
+  "custom": 1,
+  "issingle": false,
+  "fields": [
+    {
+      "fieldname": "variety_name",
+      "label": "Variety Name",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "code",
+      "label": "Code",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "default_rate",
+      "label": "Default Rate",
+      "fieldtype": "Currency"
+    }
+  ]
+}

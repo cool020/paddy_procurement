@@ -1,0 +1,31 @@
+{
+  "doctype": "DocType",
+  "name": "Procurement Settings",
+  "module": "Paddy Procurement",
+  "custom": 1,
+  "issingle": true,
+  "fields": [
+    {
+      "fieldname": "default_warehouse",
+      "label": "Default Warehouse",
+      "fieldtype": "Link",
+      "options": "Warehouse"
+    },
+    {
+      "fieldname": "default_item_code",
+      "label": "Default Item Code",
+      "fieldtype": "Link",
+      "options": "Item"
+    },
+    {
+      "fieldname": "auto_create_purchase_receipt_on_submit",
+      "label": "Auto Create Purchase Receipt On Submit",
+      "fieldtype": "Check"
+    },
+    {
+      "fieldname": "moisture_threshold",
+      "label": "Moisture Threshold",
+      "fieldtype": "Float"
+    }
+  ]
+}

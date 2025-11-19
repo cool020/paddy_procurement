@@ -1,0 +1,40 @@
+{
+  "doctype": "DocType",
+  "name": "Paddy Rate Rule",
+  "module": "Paddy Procurement",
+  "custom": 1,
+  "issingle": false,
+  "fields": [
+    {
+      "fieldname": "variety",
+      "label": "Variety",
+      "fieldtype": "Link",
+      "options": "Paddy Variety"
+    },
+    {
+      "fieldname": "moisture_from",
+      "label": "Moisture From (%)",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "moisture_to",
+      "label": "Moisture To (%)",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "deduction_percent_per_point",
+      "label": "Deduction Percent Per Point",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "fixed_rate_override",
+      "label": "Fixed Rate Override",
+      "fieldtype": "Currency"
+    },
+    {
+      "fieldname": "effective_from",
+      "label": "Effective From",
+      "fieldtype": "Date"
+    }
+  ]
+}
